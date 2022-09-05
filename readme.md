@@ -40,13 +40,13 @@ Applets, hoje depreciados, foram responsáveis pela popularização do Java. Ele
 
 ### O que se pode fazer com a tecnologia Java?
 
-![Figura que exibe uma descrição do que se pode fazer com Java](images/fig01.png)
+![Figura que exibe uma descrição do que se pode fazer com Java](src/images/fig01.png)
 
 O Java é uma linguagem compilada e interpretada.
 
 ### Certificações
 
-![Figura que exibe uma descrição das certificações Java](images/fig02.png)
+![Figura que exibe uma descrição das certificações Java](src/images/fig02.png)
 
 ## Aula 05 - Primeiro Programa em Java
 
@@ -57,6 +57,17 @@ class OlaMundo {
     }
 }
 ```
+### Entendendo o código
+
+`class` é a declaração da classe. O Java é orientado a objetos. Então, tudo no Java é objeto. Objeto é uma intância de uma classe.
+
+`OlaMundo` é o nome da classe.
+
+`public static void main(String[] args) {...}` é o método. As classes no Java têm métodos, que nada mais são do que funções. Nessa função são passados argumentos: array de strings. Esse é o ponto de entrada num programa Java. Isso não muda. O trecho `public statis` são modificadores de acesso do método. O `void` é o tipo de retorno do método. Aqui, o método não retorna nada. `main` é o nome do método. O Java é *case sensitive*. `String[] args` são parâmetros/argumentos do método.
+
+`System.out.println("Olá, Mundo!")` é o comando que faz o *output* na tela.
+
+E cada bloco está entre parênteses `{}`. São os delimitadores do bloco. Classes e métodos são blocos.
 
 
 
