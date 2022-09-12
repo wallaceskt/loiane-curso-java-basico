@@ -69,5 +69,108 @@ class OlaMundo {
 
 E cada bloco está entre parênteses `{}`. São os delimitadores do bloco. Classes e métodos são blocos.
 
+## Aula 07 - Entendendo os erros
+
+### Tipos de erros
+
+- Erros de sintaxe
+- Erros de semâmntica
+- Erros em tempo de execução
+
+## Aula 09 - Introdução à Orientação a Objetos
+![Figura que exibe uma descrição do que se pode fazer com Java](src/images/fig01.png)
+### Vantagens da OO
+
+- Reuso de código
+- Reflete o mundo real
+- Facilita a manutenção de código
+
+### Conceitos
+
+#### Classes
+
+Classe é a descrição de um grupo de objetos. A classe contém:
+
+- Nome da classe
+- Conjunto de atributos (descrição)
+- Conjunto de métodos (comportamento)
+
+#### Objetos
+
+É a instância ou modelo derivado de uma classe e que representa qualquer coisa, real ou abstrata, do mundo real. O objeto irá ser manipulado ou armazenado pelo sistema.
+
+#### Herança
+
+Herança permite a reutilização da estrutura e do comportamento de uma classe.
+
+![Figura que exibe uma descrição da Herança](src/images/fig03.png)
+
+#### Polimorfismo
+
+Habilidade de variáveis terem "mais de um tipo".
+
+Considerando a figura anterior, o animal (classe-mãe) tem o comportamento de emitir som. Dependendo do tipo do animal (classe-filha) o som vai ser diferente. Ex.: o gato mia, o cachorro late, a vaca berra, a cobra sibila, o lobo ruiva.
+
+#### Java: pacotes
+
+- Forma de organizar as classes e bibliotecas (mas não só isso)
+- Convenção: domínio + projeto + pasta. Exemplo: com.loiane.cursojava.aula09
+
+## Aula 10 - Introdução a variáveis
+
+### O que são variáveis
+
+Variável é uma área de memória associada a um nome, que pode armazenar valores de um determinado tipo.
+
+Exemplo: armazenar a idade de uma pessoa.
+
+### Como declarar variáveis
+
+É simples. Primeiro declara o tipo e depois o nome:
+
+```java
+<tipo> <nome davariável>;
+```
+
+Se quiser inicializar a variável:
+
+```java
+<tipo> <nome davariável> = <valor>;
+```
+
+### Convenção de nomeclatura
+
+Antes de nomear uma variável é importante saber primeiro o que não se pode usar:
+
+| abstract | continue | for | new | switch |
+| assert | default | goto | package | synchronized |
+| boolean | do | if | private | this |
+| break | double | implements | protected | throw |
+| byte | else | import | public | throws |
+| case | enum | instanceof | return | transient |
+| catch | extends | int | short | try |
+| char | final | interface | static | void |
+| class | finally | long | strictfp | volatile |
+| const | float | native | super | while |
+
+Convenção são regras seguidas por desenvolvedores. Além das regras, também têm as boas práticas. Assim, temos:
+
+- A primeira letra da variável pode ser: `a-zA-Z_&`
+- Da segunda letra em diante: `a-zA-Z_&0-9`
+- E camelCase
+
+> Apesar de poder usar o `&`, não se constuma usá-lo. Costuma-se usar letra minúscula ao nomear uma variável, ou seja, o camelCase. Ex.: `nomeDaPessoa`. E não há limite para o número de caracteres numa variável.
+
+### Tipos primitivos
+
+- `int`: números inteiros positivos e negativos. Ex.: 3, 456, -12
+- `float` e `double`: Pontos flutuantes (números com vírgulas/pontos). Ex.: 5,2 e 5.2.
+- `char`: caracteres. Ex.: a, B.
+- `boolean`: valores verdadeiro (true) e falso (false).
+
+## Aula 11 - Variáveis: tipos primitivos
+
+
+## Aula 12 - Lendo dados do teclado usando a classe Scanner
 
 
